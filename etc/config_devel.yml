@@ -1,0 +1,7 @@
+docker_server: '192.168.59.103'
+docker_port: 2375
+docker_gateway: '192.168.59.103'
+
+worker_image: 'docker_echo_worker'
+
+port: 8081
