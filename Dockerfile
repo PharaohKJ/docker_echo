@@ -1,4 +1,4 @@
-FROM base
+FROM ubuntu
 
 MAINTAINER Tomokazu Kiyohara <tomokazu.kiyohara@gmail.com>
 
