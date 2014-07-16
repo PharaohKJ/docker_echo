@@ -42,7 +42,7 @@ Or install it yourself as:
 4. Run docker container
 
   ```
-  $ docker run -e 'DOCKER_HOST=${DOCKER_HOST}' -p 8081:8081 docker_echo
+  $ docker run -e "DOCKER_HOST=${DOCKER_HOST}" -p 8081:8081 docker_echo
   ```
 
 5. Check API
