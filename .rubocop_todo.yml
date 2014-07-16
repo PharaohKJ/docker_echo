@@ -11,11 +11,6 @@
 Style/BracesAroundHashParameters:
   EnforcedStyle: braces
 
-# Offense count: 1
-# Configuration parameters: CountComments.
-Style/ClassLength:
-  Max: 200
-
 # Offense count: 4
 Style/Documentation:
   Enabled: false
@@ -25,11 +20,6 @@ Style/Documentation:
 # Configuration parameters: EnforcedStyle, SupportedStyles.
 Style/IndentHash:
   Enabled: false
-
-# Offense count: 2
-# Configuration parameters: CountComments.
-Style/MethodLength:
-  Max: 50
 
 # Offense count: 2
 # Cop supports --auto-correct.
