@@ -1,1 +1,11 @@
 inherit_from: .rubocop_todo.yml
+
+# Offense count: 1
+# Configuration parameters: CountComments.
+Style/ClassLength:
+  Max: 200
+
+# Offense count: 2
+# Configuration parameters: CountComments.
+Style/MethodLength:
+  Max: 50
