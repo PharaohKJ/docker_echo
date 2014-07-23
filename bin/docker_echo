@@ -14,8 +14,8 @@ require 'yaml'
 # server = DockerEcho::Server.new(opts)
 # server.run
 
-se = ServerEngine.create(nil, DockerEchoServerEngine, {
-  daemonize:   true,
+se = ServerEngine.create(nil, DockerEcho::Serverengine, {
+#  daemonize:   true,
   log:        'myserver.log',
   pid_path:   'myserver.pid',
 })
