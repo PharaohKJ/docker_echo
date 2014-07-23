@@ -15,4 +15,5 @@ module DockerEcho
   require 'docker_echo/api'
   require 'docker_echo/config_middleware'
   require 'docker_echo/server'
+  require 'docker_echo/serverengine_start'
 end
