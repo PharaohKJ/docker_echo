@@ -3,6 +3,7 @@ require "docker_echo/version"
 module DockerEcho
   $LOAD_PATH << File.expand_path(File.join(File.dirname(__FILE__)))
 
+  require 'serverengine'
   require 'rack'
   require 'puma'
   require 'grape'
