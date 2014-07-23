@@ -2,6 +2,6 @@ docker_server:
 docker_port: 2375
 docker_gateway:
 
-worker_image: 'docker_echo_worker'
+worker_image: 'kiyohara/docker-echo-worker'
 
 port: 8081

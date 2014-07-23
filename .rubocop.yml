@@ -9,3 +9,9 @@ Style/ClassLength:
 # Configuration parameters: CountComments.
 Style/MethodLength:
   Max: 50
+
+# Offense count: 12
+# Cop supports --auto-correct.
+# Configuration parameters: EnforcedStyle, SupportedStyles.
+Style/StringLiterals:
+  Enabled: false
