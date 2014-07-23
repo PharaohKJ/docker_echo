@@ -31,12 +31,6 @@ Style/PercentLiteralDelimiters:
 Style/RegexpLiteral:
   MaxSlashes: 0
 
-# Offense count: 12
-# Cop supports --auto-correct.
-# Configuration parameters: EnforcedStyle, SupportedStyles.
-Style/StringLiterals:
-  Enabled: false
-
 # Offense count: 1
 # Cop supports --auto-correct.
 # Configuration parameters: EnforcedStyle, SupportedStyles.
