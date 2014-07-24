@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = DockerEcho::VERSION
   spec.authors       = ["Tomokazu Kiyohara"]
   spec.email         = ["tomokazu.kiyohara@gmail.com"]
-  spec.summary       = %q{docker echo service's manager}
-  spec.description   = %q{docker echo service's manager}
+  spec.summary       = "docker echo service's manager"
+  spec.description   = "docker echo service's manager"
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -18,6 +18,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
+  spec.add_runtime_dependency 'serverengine'
   spec.add_runtime_dependency 'rack'
   spec.add_runtime_dependency 'puma'
   spec.add_runtime_dependency 'grape'
