@@ -1,8 +1,12 @@
 module DockerEcho
   module Serverengine
+    def initialize
+      # p worker_id
+    end
+
     def run
       config_path = ARGV[0]
-      opts = {}
+      opts = { worker_id: worker_id }
 
       if config_path && File.exist?(config_path)
         opts.merge!(YAML.load_file(config_path))

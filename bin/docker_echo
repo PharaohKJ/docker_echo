@@ -5,18 +5,10 @@ $LOAD_PATH << File.expand_path(File.join(here, '..', 'lib'))
 require 'docker_echo'
 require 'yaml'
 
-# config_path = ARGV[0]
-# opts = {}
-#
-# if config_path && File.exist?(config_path)
-#   opts.merge!(YAML.load_file(config_path))
-# end
-# server = DockerEcho::Server.new(opts)
-# server.run
-
 se = ServerEngine.create(nil, DockerEcho::Serverengine, {
-#  daemonize:   true,
-  log:        'myserver.log',
-  pid_path:   'myserver.pid',
+  log:         'myserver.log',
+  pid_path:    'myserver.pid',
+  worker_type: 'process',
+  workers:     2,
 })
 se.run

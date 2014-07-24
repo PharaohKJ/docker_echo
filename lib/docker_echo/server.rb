@@ -16,7 +16,7 @@ module DockerEcho
       @rack_server = Rack::Server.new({
         app: app,
         server: 'puma',
-        Port: @port
+        Port: @port + config[:worker_id]
       })
       @rack_server.start
     end
