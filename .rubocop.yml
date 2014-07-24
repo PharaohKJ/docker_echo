@@ -20,3 +20,7 @@ Style/StringLiterals:
 # Configuration parameters: EnforcedStyleForMultiline, SupportedStyles.
 Style/TrailingComma:
   Enabled: false
+
+# Offense count: 1
+Style/AsciiComments:
+  Enabled: false
